@@ -62,7 +62,7 @@ function Section({ interval = 0, layout, style, children }: Props) {
       >
         <Slider
           class={clx(
-            "relative carousel carousel-center col-start-2 col-end-2 row-start-1 row-end-4",
+            "relative carousel carousel-center col-start-2 col-end-2 row-start-1 row-end-4 snap-x",
             layout?.gap?.mobile
               ? grid.gap.mobile[layout.gap.mobile]
               : grid.gap.mobile[2],
@@ -74,7 +74,7 @@ function Section({ interval = 0, layout, style, children }: Props) {
           {items?.map((item, index) => (
             <Slider.Item
               index={index}
-              class="carousel-item"
+              class="carousel-item snap-center"
               style={{ width: layout?.itemWidth || "auto" }}
             >
               {item}
@@ -123,7 +123,7 @@ function Section({ interval = 0, layout, style, children }: Props) {
           </ul>
         )}
 
-        <SliderJS rootId={id} interval={interval && interval * 1e3} infinite />
+        <SliderJS rootId={id} interval={interval && interval * 1e3} infinite centerMode={true} />
       </div>
     </>
   );

@@ -7,6 +7,11 @@
   /* Allow changing font family via CMS */
   html {
     font-family: var(--font-family);
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #fff;
   }
 
   mark {
@@ -53,4 +58,30 @@
   to {
     --dot-progress: 100%
   }
+}
+
+h2 strong span {
+  font-weight: bolder;
+}
+
+.content-text-edit {
+  /* outline: 1px solid #00A6CA; */
+  -webkit-text-fill-color: #012E66; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #00A6CA;
+}
+
+.text-apresentation {
+  margin: 50px auto;
+  max-width: 1280px;
+}
+
+.itens-fazer:hover::before {
+  content: '';
+  width: 5px;
+  height: 100%;
+  background-color: #00A6CA;
+  position: absolute;
+  display: block;
+  margin-left: -15px;
 }

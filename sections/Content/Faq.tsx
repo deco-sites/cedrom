@@ -54,8 +54,8 @@ const DEFAULT_PROPS = {
 
 function Question({ question, answer }: Question) {
   return (
-    <details class="collapse collapse-arrow join-item border-t border-base-200">
-      <summary class="collapse-title text-lg font-medium">
+    <details class="collapse collapse-arrow join-item border-b border-base-200">
+      <summary class="collapse-title text-lg font-bold">
         {question}
       </summary>
       <div
@@ -130,21 +130,20 @@ export default function FAQ(props: Props) {
       )}
 
       {layout?.variation === "Side to side" && (
-        <div class="w-full container px-4 py-8 grid gap-8 grid-flow-row grid-cols-1 lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-2 lg:py-10 lg:px-0">
-          <div class="order-1 lg:order-1">
-            <Header
-              title={title || ""}
-              description={description || ""}
-              alignment={layout?.headerAlignment || "center"}
-            />
+        <div class="w-full container px-4 py-8 gap-8 grid-flow-row grid-cols-1 lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-2 lg:py-10 lg:px-0 flex">
+          <div class="order-1 lg:order-1 w-1/2">
+            <div class="w-2/4">
+              <Header
+                title={title || ""}
+                description={description || ""}
+                alignment={layout?.headerAlignment || "center"}
+              />
+            </div>
           </div>
-          <div class="order-2 lg:order-3 lg:row-span-2">
+          <div class="order-2 lg:order-3 lg:row-span-2 w-1/2">
             <div class="join join-vertical">
               {questions.map((question) => <Question {...question} />)}
             </div>
-          </div>
-          <div class="order-3 lg:order-2">
-            <Contact {...contact} />
           </div>
         </div>
       )}

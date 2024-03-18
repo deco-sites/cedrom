@@ -38,13 +38,8 @@ function CardText({
         !alignment || alignment === "Center" ? "items-center" : "items-start"
       }`}
     >
-      {tag && (
-        <div class="text-xs bg-primary text-primary-content py-1 px-2 rounded mb-2">
-          {tag}
-        </div>
-      )}
-      {label && <h3 class="text-xl">{label}</h3>}
-      {description && <div class="text-sm">{description}</div>}
+      {label && <h3 class="text-[30px] text-[#00A6CA] text-center">{label}</h3>}
+      {description && <div class="text-[18px] text-center">{description}</div>}
     </div>
   );
 }
@@ -80,7 +75,7 @@ function Card(
         {image && (
           <figure>
             <Image
-              class="card"
+              class="card w-full"
               src={image}
               alt={description || label || tag}
               width={160}
@@ -98,11 +93,11 @@ function Card(
           />
         )}
       </a>
-      {buttonText && (
+      {/* {buttonText && (
         <a href={href} class={getButtonClasses(style?.button || {})}>
           {buttonText}
         </a>
-      )}
+      )} */}
     </div>
   );
 }

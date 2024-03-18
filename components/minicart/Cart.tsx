@@ -15,27 +15,27 @@ export interface Props {
 
 function Cart({ platform }: Props) {
   if (platform === "vtex") {
-    return <CartVTEX />;
+    return;
   }
 
   if (platform === "vnda") {
-    return <CartVNDA />;
+    return;
   }
 
   if (platform === "wake") {
-    return <CartWake />;
+    return;
   }
 
   if (platform === "linx") {
-    return <CartLinx />;
+    return ;
   }
 
   if (platform === "shopify") {
-    return <CartShopify />;
+    return;
   }
 
   if (platform === "nuvemshop") {
-    return <CartNuvemshop />;
+    return;
   }
 
   return null;

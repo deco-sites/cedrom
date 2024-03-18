@@ -24,7 +24,7 @@ export interface Props {
   alerts?: string[];
 
   /** @title Search Bar */
-  searchbar?: Omit<SearchbarProps, "platform">;
+  // searchbar?: Omit<SearchbarProps, "platform">;
 
   /**
    * @title Navigation items
@@ -37,12 +37,12 @@ export interface Props {
 
   logoPosition?: "left" | "center";
 
-  buttons?: Buttons;
+  // buttons?: Buttons;
 }
 
 function Header({
   alerts,
-  searchbar,
+  // searchbar,
   navItems = [
     {
       "@type": "SiteNavigationElement",
@@ -73,27 +73,27 @@ function Header({
     alt: "Logo",
   },
   logoPosition = "center",
-  buttons,
+  // buttons,
 }: Props) {
   const platform = usePlatform();
   const items = navItems ?? [];
 
   return (
     <>
-      <header style={{ height: headerHeight }}>
+      <header style={{ height: headerHeight }} class="bg-[#ffffff]">
         <Drawers
           menu={{ items }}
-          searchbar={searchbar}
+          // searchbar={searchbar}
           platform={platform}
         >
-          <div class="bg-base-100 fixed w-full z-50">
+          <div class="fixed w-full z-50 bg-[#ffffff]">
             {alerts && alerts.length > 0 && <Alert alerts={alerts} />}
             <Navbar
               items={items}
-              searchbar={searchbar && { ...searchbar, platform }}
+              // searchbar={searchbar && { ...searchbar, platform }}
               logo={logo}
               logoPosition={logoPosition}
-              buttons={buttons}
+              // buttons={buttons}
             />
           </div>
         </Drawers>

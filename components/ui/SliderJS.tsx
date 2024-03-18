@@ -5,6 +5,7 @@ export interface Props {
   scroll?: "smooth" | "auto";
   interval?: number;
   infinite?: boolean;
+  centerMode?: boolean
 }
 
 const ATTRIBUTES = {
@@ -46,7 +47,7 @@ const isHTMLElement = (x: Element): x is HTMLElement =>
   // deno-lint-ignore no-explicit-any
   typeof (x as any).offsetLeft === "number";
 
-const setup = ({ rootId, scroll, interval, infinite }: Props) => {
+const setup = ({ rootId, scroll, interval, infinite, centerMode }: Props) => {
   const root = document.getElementById(rootId);
   const slider = root?.querySelector(`[${ATTRIBUTES["data-slider"]}]`);
   const items = root?.querySelectorAll(`[${ATTRIBUTES["data-slider-item"]}]`);
@@ -189,12 +190,14 @@ function Slider({
   scroll = "smooth",
   interval,
   infinite = false,
+  centerMode = true
 }: Props) {
-  useEffect(() => setup({ rootId, scroll, interval, infinite }), [
+  useEffect(() => setup({ rootId, scroll, interval, infinite, centerMode}), [
     rootId,
     scroll,
     interval,
     infinite,
+    centerMode
   ]);
 
   return <div data-slider-controller-js />;

@@ -21,7 +21,7 @@ export interface Props {
 
 const PLACEMENT = {
   left: "flex-col text-left lg:flex-row-reverse",
-  right: "flex-col text-left lg:flex-row",
+  right: "flex-col text-left lg:flex-row relative",
 };
 
 export default function HeroFlats({
@@ -32,19 +32,19 @@ export default function HeroFlats({
   cta,
 }: Props) {
   return (
-    <div>
+    <div class="mb-[20px] bg-transparent">
       <div class="mx-auto flex flex-col items-center gap-8">
         <div
-          class={`flex w-full xl:container xl:mx-auto py-20 mx-5 md:mx-10 z-10 ${
+          class={`flex w-full xl:mx-auto mx-5 md:mx-10 z-10 ${
             image
               ? PLACEMENT[placement]
               : "flex-col items-center justify-center text-center"
-          } lg:py-36 gap-12 md:gap-20 items-center`}
+          } gap-12 md:gap-20 items-center`}
         >
           {image && (
             <Image
               width={640}
-              class="w-full lg:w-1/2 object-fit"
+              class="w-full object-fit relative"
               sizes="(max-width: 640px) 100vw, 30vw"
               src={image}
               alt={image}
@@ -53,20 +53,20 @@ export default function HeroFlats({
             />
           )}
           <div
-            class={`mx-6 lg:mx-auto lg:w-full space-y-4 gap-4 ${
+            class={`mx-6 lg:mx-auto lg:w-[47%] space-y-4 gap-4 absolute left-[5%] ${
               image
-                ? "lg:w-1/2 lg:max-w-xl"
+                ? "lg:w-1/2 lg:max-w-[47%]"
                 : "flex flex-col items-center justify-center lg:max-w-3xl"
             }`}
           >
             <div
-              class="inline-block text-[80px] leading-[100%] font-medium tracking-[-2.4px]"
+              class="inline-block text-[60px] leading-[100%] font-[900]"
               dangerouslySetInnerHTML={{
                 __html: title,
               }}
             >
             </div>
-            <p class="text-zinc-400 text-[16px] md:text-[18px] leading-[150%]">
+            <p class="text-[#ffffff] text-[16px] md:text-[18px] leading-[150%] font-[300]">
               {description}
             </p>
             <div class="flex flex-col items-center lg:items-start lg:flex-row gap-4">
@@ -76,10 +76,10 @@ export default function HeroFlats({
                   id={item?.id}
                   href={item?.href}
                   target={item?.href.includes("http") ? "_blank" : "_self"}
-                  class={`group relative overflow-hidden rounded-full hover:bg-gradient-to-r px-6 py-2 lg:px-8 lg:py-3 transition-all duration-300 ease-out ${
+                  class={`group relative overflow-hidden rounded-[5px] bg-[#00A6CA] hover:bg-gradient-to-r px-6 py-2 lg:px-8 lg:py-3 transition-all duration-300 ease-out ${
                     item.variant === "Reverse"
-                      ? "bg-secondary text-white"
-                      : "bg-accent text-black"
+                      ? "bg-[#00A6CA] text-white"
+                      : "bg-[#00A6CA] text-white"
                   }`}
                 >
                   <span class="ease absolute right-0 -mt-12 h-32 w-8 translate-x-12 rotate-12 transform bg-white opacity-10 transition-all duration-1000 group-hover:-translate-x-40">
