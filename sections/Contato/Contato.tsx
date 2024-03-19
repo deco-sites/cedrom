@@ -62,35 +62,16 @@ export default function Contato(props: Props) {
     const firstNumberContact = `tel:+5511${firstPhoneContact}`
     const secondNumberContact = `tel:+5511${secondPhoneContact}`
 
-    console.log('logoInstagram', logoInstagram)
-
     return (
-        <div class="bg-[#012E66] flex items-center justify-between py-14">
+        <div class="bg-[#012E66] flex items-center justify-between pt-14 flex-col">
             <div class="flex flex-col max-w-[600px] container">
-                <h3 class="text-[32px] text-white w-[60%] font-bold">Solicite uma simulação gratuita</h3>
-                <form class="flex flex-wrap justify-start">
-                    <input class="w-[47%] mr-8 p-4 rounded-[6px] mb-[10px]" placeholder="Primeiro Nome" type="text" name="" id="" required/>
-                    <input class="w-[47%] p-4 rounded-[6px] mb-[10px]" placeholder="Último Nome" type="text" name="" id="" required/>
-                    <input class="w-[47%] mr-8 p-4 rounded-[6px] mb-[10px]" placeholder="E-mail" type="email" name="" id="" required/>
-                    <input class="w-[47%] p-4 rounded-[6px] mb-[10px]" placeholder="Nome do condomínio" type="text" name="" id="" required/>
-                    <textarea class="w-full p-4 rounded-[6px] mb-[10px]" placeholder="Escreva sua mensagem aqui" name="" id="" cols="30" rows="10"></textarea>
-                    <input class="w-1/2 bg-[#00A6CA] text-white uppercase px-4 py-2 rounded-[6px] cursor-pointer" type="submit" value="Solicitar" />
-                </form>
+                <h3 class="text-[32px] text-white w-full font-bold mb-3 max-[1020px]:w-[90%] max-[1020px]:mx-auto">Solicite uma simulação gratuita</h3>
+                <div class="max-[1020px]:w-full respondi-input" data-respondi-container="" data-respondi-mode="regular" data-respondi-src="https://form.respondi.app/qVTZe501" data-respondi-width="600px" data-respondi-height="400px"></div>
             </div>
-            <div class="flex flex-col bg-[#00A6CA] w-[40%] rounded-tl-[6px] rounded-bl-[6px]">
-                <div class="ml-[15%] py-12">
-                    <div class="block w-[110px] ml-[10%] mb-6">
-                        <Image 
-                            width={100}
-                            class="relative object-fit w-full"
-                            src={logo.src}
-                            alt={logo.alt}
-                            decoding="async"
-                            loading="lazy"
-                        />
-                    </div>
+            <div class="flex flex-col w-full items-center">
+                <div class="py-6">
                     <div class="flex items-center mb-6">
-                        <h4 class="text-[20px] text-white font-bold mr-6 block">Redes Sociais</h4>
+                        <h4 class="text-[20px] text-white font-bold mr-6 block">Redes<br/>Sociais</h4>
                         <ul>
                             <li class="flex items-center">
                                 <a class="text-white flex items-center cursor-pointer" href={logoLinkedIn.link} target="_blank" rel="noopener noreferrer">

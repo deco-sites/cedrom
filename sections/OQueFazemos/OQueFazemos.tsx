@@ -71,7 +71,7 @@ export default function OQueFazemos({
     })
 
     return (
-        <div class="flex items-center container justify-between">
+        <div class="flex items-center container justify-between max-[1020px]:flex-col">
             <Image
                     src={itens[0].image?.src}
                     width={521}
@@ -79,7 +79,7 @@ export default function OQueFazemos({
                     alt={itens[0].image?.alt}
                     label={itens[0].image?.label}
             />
-            <div class="flex items-center flex-col w-10/12 ml-[35px]">
+            <div class="flex items-center flex-col w-10/12 ml-[35px] max-[1020px]:ml-0 max-[1020px]:mt-5">
                 {ItensMap}
             </div>
         </div>

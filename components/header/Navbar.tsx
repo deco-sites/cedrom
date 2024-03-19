@@ -41,9 +41,10 @@ function Navbar({ items, logo, logoPosition = "left" }: {
           >
             <Image
               src={logo.src}
-              alt={logo.alt}
-              width={logo.width || 100}
-              height={logo.height || 13}
+              alt="Cedrom"
+              width={100}
+              height={75}
+              class="max-[1020px]:w-full max-[1020px]:h-auto max-[1020px]:p-4"
             />
           </a>
         )}

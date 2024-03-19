@@ -12,7 +12,7 @@ export default function Section({ placeholderItems, items, slider }: Props) {
   const allItems = !items || items?.length === 0 ? ITEMS : items;
 
   return (
-    <div class="py-6">
+    <div class="py-6 container">
       <Carousel
         layout={{ itemWidth: 200 }}
         {...slider}

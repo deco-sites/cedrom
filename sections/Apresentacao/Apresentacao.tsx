@@ -18,7 +18,7 @@ export default function RichText(
         maxWidth: containerWidth ? containerWidth : 1000,
         margin: "70px auto",
       }}
-      class="text-apresentation"
+      class="text-apresentation max-[1020px]:w-[90%] max-[1020px]:mx-auto"
     >
     </div>
   );

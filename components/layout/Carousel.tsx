@@ -74,7 +74,7 @@ function Section({ interval = 0, layout, style, children }: Props) {
           {items?.map((item, index) => (
             <Slider.Item
               index={index}
-              class="carousel-item snap-center"
+              class="carousel-item snap-center min-h-[580px] flex items-baseline"
               style={{ width: layout?.itemWidth || "auto" }}
             >
               {item}

@@ -1,5 +1,6 @@
 import Header from "$store/components/ui/SectionHeader.tsx";
 
+/** @title {{question}} */
 export interface Question {
   question: string;
   /** @format html */
@@ -130,9 +131,9 @@ export default function FAQ(props: Props) {
       )}
 
       {layout?.variation === "Side to side" && (
-        <div class="w-full container px-4 py-8 gap-8 grid-flow-row grid-cols-1 lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-2 lg:py-10 lg:px-0 flex">
-          <div class="order-1 lg:order-1 w-1/2">
-            <div class="w-2/4">
+        <div class="w-full container px-4 py-8 gap-8 grid-flow-row grid-cols-1 lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-2 lg:py-10 lg:px-0 flex max-[1020px]:flex-col">
+          <div class="order-1 lg:order-1 w-1/2 max-[1020px]:w-full">
+            <div class="w-2/4 max-[1020px]:w-full">
               <Header
                 title={title || ""}
                 description={description || ""}
@@ -140,7 +141,7 @@ export default function FAQ(props: Props) {
               />
             </div>
           </div>
-          <div class="order-2 lg:order-3 lg:row-span-2 w-1/2">
+          <div class="order-2 lg:order-3 lg:row-span-2 w-1/2 max-[1020px]:w-full">
             <div class="join join-vertical">
               {questions.map((question) => <Question {...question} />)}
             </div>

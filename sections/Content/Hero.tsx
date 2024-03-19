@@ -35,7 +35,7 @@ export default function HeroFlats({
     <div class="mb-[20px] bg-transparent">
       <div class="mx-auto flex flex-col items-center gap-8">
         <div
-          class={`flex w-full xl:mx-auto mx-5 md:mx-10 z-10 ${
+          class={`flex w-full xl:mx-auto mx-5 md:mx-10 z-10 relative ${
             image
               ? PLACEMENT[placement]
               : "flex-col items-center justify-center text-center"
@@ -44,29 +44,27 @@ export default function HeroFlats({
           {image && (
             <Image
               width={640}
-              class="w-full object-fit relative"
+              class="w-full object-fit relative max-[1020px]:h-[400px] max-[1020px]:object-cover"
               sizes="(max-width: 640px) 100vw, 30vw"
               src={image}
               alt={image}
-              decoding="async"
-              loading="lazy"
             />
           )}
           <div
-            class={`mx-6 lg:mx-auto lg:w-[47%] space-y-4 gap-4 absolute left-[5%] ${
+            class={`mx-6 lg:mx-auto lg:w-[47%] space-y-4 gap-4 absolute left-[5%] max-[1020px]:flex max-[1020px]:items-start max-[1020px]:flex-col max-[1020px]:bottom-[100px] ${
               image
                 ? "lg:w-1/2 lg:max-w-[47%]"
                 : "flex flex-col items-center justify-center lg:max-w-3xl"
             }`}
           >
             <div
-              class="inline-block text-[60px] leading-[100%] font-[900]"
+              class="inline-block text-[60px] leading-[100%] font-[900] max-[1020px]:text-[20px]"
               dangerouslySetInnerHTML={{
                 __html: title,
               }}
             >
             </div>
-            <p class="text-[#ffffff] text-[16px] md:text-[18px] leading-[150%] font-[300]">
+            <p class="text-[#ffffff] text-[16px] md:text-[18px] leading-[150%] font-[300] max-[1020px]:text-[12px]">
               {description}
             </p>
             <div class="flex flex-col items-center lg:items-start lg:flex-row gap-4">

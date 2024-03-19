@@ -33,16 +33,16 @@ export default function PorqueContratar( {
     
     const ItensReturn = itens.map((value) => {
         return (
-            <div class="bg-[#00A6CA] flex justify-center items-center py-[50px] px-[70px]">
-                <p class="text-[25px] text-white text-center font-semibold">{value?.text}</p>
+            <div class="bg-[#00A6CA] flex justify-center items-center py-[50px] px-[70px] rounded-[6px] max-[1020px]:w-11/12 max-[1020px]:py-[60px] max-[1020px]:px-[80px]">
+                <p class="text-[25px] text-white text-center font-semibold max-[1020px]:text-[20px]">{value?.text}</p>
             </div>
         )
     })
 
     return (
         <div class="flex flex-wrap container justify-center my-[40px]">
-            <h2 class="w-full text-center text-[#012E66] font-bold text-[40px] block mb-[20px]">{title}</h2>
-            <div class="grid grid-cols-[repeat(3,_1fr)] grid-rows-[repeat(2,_1fr)] gap-x-[10px] gap-y-[10px]">
+            <h2 class="w-full text-center text-[#012E66] font-bold text-[40px] block mb-[20px] max-[1020px]:text-[25px]">{title}</h2>
+            <div class="grid grid-cols-[repeat(3,_1fr)] grid-rows-[repeat(2,_1fr)] gap-x-[10px] gap-y-[10px] max-[1020px]:grid-cols-[1fr] max-[1020px]:flex max-[1020px]:flex-col max-[1020px]:items-center">
                 {ItensReturn}
             </div>
         </div>

@@ -85,3 +85,9 @@ h2 strong span {
   display: block;
   margin-left: -15px;
 }
+
+@media (max-width: 1020px) {
+  .respondi-input {
+    width: 100% !important;
+  }
+}

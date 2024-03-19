@@ -31,6 +31,12 @@ export default defineApp(async (_req, ctx) => {
         <link rel="manifest" href={asset("/site.webmanifest")} />
       </Head>
 
+      <script 
+        dangerouslySetInnerHTML={{
+          __html: `const bodyScript=document.querySelector('body'),hasScript=document.querySelector('#respondi_src');if(!hasScript){const script=document.createElement('script');script.setAttribute("async", "");document.body.appendChild(script),script.id='respondi_src',script.src='https://embed.respondi.app/embed.js';}` 
+        }}
+      />
+
       {/* Rest of Preact tree */}
       <ctx.Component />
 
