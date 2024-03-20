@@ -93,11 +93,13 @@ function Card(
           />
         )}
       </a>
-      {/* {buttonText && (
+      {
+        /* {buttonText && (
         <a href={href} class={getButtonClasses(style?.button || {})}>
           {buttonText}
         </a>
-      )} */}
+      )} */
+      }
     </div>
   );
 }

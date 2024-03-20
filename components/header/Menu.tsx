@@ -36,7 +36,6 @@ function Menu({ items }: Props) {
           </li>
         ))}
       </ul>
-
     </div>
   );
 }

@@ -5,7 +5,7 @@ export interface Props {
   scroll?: "smooth" | "auto";
   interval?: number;
   infinite?: boolean;
-  centerMode?: boolean
+  centerMode?: boolean;
 }
 
 const ATTRIBUTES = {
@@ -190,14 +190,14 @@ function Slider({
   scroll = "smooth",
   interval,
   infinite = false,
-  centerMode = true
+  centerMode = true,
 }: Props) {
-  useEffect(() => setup({ rootId, scroll, interval, infinite, centerMode}), [
+  useEffect(() => setup({ rootId, scroll, interval, infinite, centerMode }), [
     rootId,
     scroll,
     interval,
     infinite,
-    centerMode
+    centerMode,
   ]);
 
   return <div data-slider-controller-js />;

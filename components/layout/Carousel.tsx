@@ -74,7 +74,7 @@ function Section({ interval = 0, layout, style, children }: Props) {
           {items?.map((item, index) => (
             <Slider.Item
               index={index}
-              class="carousel-item snap-center min-h-[580px] flex items-baseline"
+              class="carousel-item snap-center min-h-[580px] flex items-baseline max-[1020px]:max-w-full"
               style={{ width: layout?.itemWidth || "auto" }}
             >
               {item}
@@ -123,7 +123,12 @@ function Section({ interval = 0, layout, style, children }: Props) {
           </ul>
         )}
 
-        <SliderJS rootId={id} interval={interval && interval * 1e3} infinite centerMode={true} />
+        <SliderJS
+          rootId={id}
+          interval={interval && interval * 1e3}
+          infinite
+          centerMode={true}
+        />
       </div>
     </>
   );

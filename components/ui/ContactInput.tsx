@@ -1,7 +1,3 @@
 export function ScriptRespondi() {
-
-    
-    return (
-        <script></script>
-    )
+  return <script></script>;
 }

@@ -27,7 +27,7 @@ function Cart({ platform }: Props) {
   }
 
   if (platform === "linx") {
-    return ;
+    return;
   }
 
   if (platform === "shopify") {
