@@ -43,7 +43,7 @@ export default function PorqueContratar({
   });
 
   return (
-    <div class="flex flex-wrap container justify-center my-[40px]">
+    <div class="flex flex-wrap container justify-center my-[40px]" id="vantagens">
       <h2 class="w-full text-center text-[#012E66] font-bold text-[40px] block mb-[20px] max-[1020px]:text-[25px]">
         {title}
       </h2>

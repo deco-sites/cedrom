@@ -65,7 +65,7 @@ export default function Contato(props: Props) {
   const secondNumberContact = `tel:+5511${secondPhoneContact}`;
 
   return (
-    <div class="bg-[#012E66] flex items-center justify-between pt-14 flex-col">
+    <div class="bg-[#012E66] flex items-center justify-between pt-14 flex-col" id="contato">
       <div class="flex flex-col max-w-[600px] container">
         <h3 class="text-[32px] text-white w-full font-bold mb-3 max-[1020px]:w-[90%] max-[1020px]:mx-auto text-center">
           Solicite uma simulação gratuita

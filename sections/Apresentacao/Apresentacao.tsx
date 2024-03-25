@@ -19,6 +19,7 @@ export default function RichText(
         margin: "70px auto",
       }}
       class="text-apresentation max-[1020px]:w-[90%] max-[1020px]:mx-auto"
+      id="como-funciona"
     >
     </div>
   );
