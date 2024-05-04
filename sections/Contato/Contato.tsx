@@ -25,7 +25,7 @@ export interface Props {
   logoLinkedIn: LogoLinkedIn;
   logoInstagram: LogoInstagram;
   firstPhoneContact: string;
-  secondPhoneContact: string;
+  secondPhoneContact?: string;
 }
 
 const DEFAULT_PROPS = {
@@ -48,8 +48,7 @@ const DEFAULT_PROPS = {
     text: "cedrom",
     url_link: "https://www.instagram.com/cedromoveissc401/",
   },
-  firstPhoneContact: "999999999",
-  secondPhoneContact: "999999999",
+  firstPhoneContact: "4240-2022",
 };
 
 export default function Contato(props: Props) {

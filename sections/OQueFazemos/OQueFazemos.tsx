@@ -29,7 +29,7 @@ export default function OQueFazemos({
         alt: "",
         label: "",
       },
-      titleText: "Atração",
+      titleText: "A Solução para Estabilidade Financeira do Seu Condomínio",
       contentText:
         "Você já imaginou proporcionar estabilidade financeira ao seu condomínio, garantindo uma gestão eficiente para o síndico? Apresentamos a Cedrom, a solução que transforma a administração condominial, eliminando preocupações com inadimplência.",
     },
@@ -40,7 +40,7 @@ export default function OQueFazemos({
         alt: "",
         label: "",
       },
-      titleText: "Interesse",
+      titleText: "Elimine Preocupações com Inadimplência",
       contentText:
         "Uma garantidora de condomínio como a Cedrom assume a cobrança da taxa condominial, garantindo a receita mensal e eliminando os riscos jurídicos. O síndico passa a contar com uma gestão financeira estável, sem surpresas desagradáveis.",
     },
@@ -51,7 +51,7 @@ export default function OQueFazemos({
         alt: "",
         label: "",
       },
-      titleText: "Desejo",
+      titleText: "Gestão Condominial Simplificada",
       contentText:
         "Ao contratar a Cedrom, a cobrança dos inadimplentes se torna responsabilidade da empresa, sem custos adicionais para o condomínio. O síndico ganha previsibilidade de caixa, possibilitando planejar obras e melhorias, sem impacto na taxa condominial.",
     },
@@ -62,7 +62,7 @@ export default function OQueFazemos({
         alt: "",
         label: "",
       },
-      titleText: "Ação",
+      titleText: "Receitas Mensais Garantidas",
       contentText:
         "Deseja garantir receitas mensais estáveis, eliminar gastos legais com cobranças e valorizar seu condomínio? Contratar a Cedrom é simples: uma análise de cadastro, proposta enviada, aprovação em assembleia e assinatura do contrato. Solicite agora uma simulação gratuita e transforme a gestão do seu condomínio com a Cedrom.",
     },
