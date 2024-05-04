@@ -38,6 +38,8 @@ export default defineApp(async (_req, ctx) => {
         }}
       />
 
+      <script src="//code.jivosite.com/widget/SrSwM7PiQm" async></script>
+
       {/* Rest of Preact tree */}
       <ctx.Component />
 
