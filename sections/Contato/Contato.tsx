@@ -69,14 +69,12 @@ export default function Contato(props: Props) {
         <h3 class="text-[32px] text-white w-full font-bold mb-3 max-[1020px]:w-[90%] max-[1020px]:mx-auto text-center">
           Solicite uma simulação gratuita
         </h3>
-        <div
-          class="max-[1020px]:w-full respondi-input"
-          data-respondi-container=""
-          data-respondi-mode="regular"
-          data-respondi-src="https://form.respondi.app/qVTZe501"
+        <div 
+          data-respondi-container="" 
+          data-respondi-mode="regular" 
+          data-respondi-src="https://form.respondi.app/g1zT8yz3" 
           data-respondi-width="600px"
-          data-respondi-height="400px"
-        >
+          data-respondi-height="400px">
         </div>
       </div>
       <div class="flex flex-col w-full items-center">
@@ -89,7 +87,7 @@ export default function Contato(props: Props) {
               <li class="flex items-center">
                 <a
                   class="text-white flex items-center cursor-pointer"
-                  href={logoLinkedIn.link}
+                  href={logoLinkedIn.url_link}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -108,7 +106,7 @@ export default function Contato(props: Props) {
               <li class="flex items-center">
                 <a
                   class="text-white flex items-center cursor-pointer"
-                  href={logoInstagram.link}
+                  href={logoInstagram.url_link}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -134,11 +132,11 @@ export default function Contato(props: Props) {
                   (11) {firstPhoneContact}
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a class="text-white" href={secondNumberContact}>
                   (11) {secondPhoneContact}
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
