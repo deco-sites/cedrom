@@ -57,8 +57,9 @@ export default function PorqueContratar({
         <h2 class="my-2 font-bold text-3xl block text-center py-2 text-[#012E66]">
           Solicitar 2ª via de boleto
         </h2>
-        <div data-tf-live="01JCPXD2VNEJQWEYV8BB37C7VJ" class="w-full"></div>
-        <script src="//embed.typeform.com/next/embed.js"></script>
+        {/* <div data-tf-live="01JCPXD2VNEJQWEYV8BB37C7VJ" class="w-full"></div>
+        <script src="//embed.typeform.com/next/embed.js"></script> */}
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe0MhJ3cBLbfdS8gYSOIjo_1j3OsX1PfdTlz63ig_w4Zmm6dQ/viewform?embedded=true" class="w-full" height="1552" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
       </div>
     </div>
   );
