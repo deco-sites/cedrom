@@ -43,14 +43,21 @@ export default function PorqueContratar({
   });
 
   return (
-    <div class="flex flex-wrap container justify-center my-[40px]" id="vantagens">
+    <div
+      class="flex flex-wrap container justify-center my-[40px]"
+      id="vantagens"
+    >
       <h2 class="w-full text-center text-[#012E66] font-bold text-[40px] block mb-[20px] max-[1020px]:text-[25px]">
         {title}
       </h2>
       <div class="grid grid-cols-[repeat(3,_1fr)] grid-rows-[repeat(2,_1fr)] gap-x-[10px] gap-y-[10px] max-[1020px]:grid-cols-[1fr] max-[1020px]:flex max-[1020px]:flex-col max-[1020px]:items-center">
         {ItensReturn}
       </div>
-      <div data-tf-live="01JCPXD2VNEJQWEYV8BB37C7VJ" class="w-full"></div><script src="//embed.typeform.com/next/embed.js"></script>
+      <div class="my-5 w-full">
+        <h2 class="my-2 font-bold text-3xl block text-center py-2 text-[#012E66]">Solicitar 2ª via de boleto</h2>
+        <div data-tf-live="01JCPXD2VNEJQWEYV8BB37C7VJ" class="w-full"></div>
+        <script src="//embed.typeform.com/next/embed.js"></script>
+      </div>
     </div>
   );
 }

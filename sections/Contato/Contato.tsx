@@ -64,17 +64,21 @@ export default function Contato(props: Props) {
   const secondNumberContact = `tel:+5511${secondPhoneContact}`;
 
   return (
-    <div class="bg-[#012E66] flex items-center justify-between pt-14 flex-col" id="contato">
+    <div
+      class="bg-[#012E66] flex items-center justify-between pt-14 flex-col"
+      id="contato"
+    >
       <div class="flex flex-col max-w-[600px] container">
         <h3 class="text-[32px] text-white w-full font-bold mb-3 max-[1020px]:w-[90%] max-[1020px]:mx-auto text-center">
           Solicite uma simulação gratuita
         </h3>
-        <div 
-          data-respondi-container="" 
-          data-respondi-mode="regular" 
-          data-respondi-src="https://form.respondi.app/g1zT8yz3" 
+        <div
+          data-respondi-container=""
+          data-respondi-mode="regular"
+          data-respondi-src="https://form.respondi.app/g1zT8yz3"
           data-respondi-width="600px"
-          data-respondi-height="400px">
+          data-respondi-height="400px"
+        >
         </div>
       </div>
       <div class="flex flex-col w-full items-center">
@@ -132,11 +136,13 @@ export default function Contato(props: Props) {
                   (11) {firstPhoneContact}
                 </a>
               </li>
-              {/* <li>
+              {
+                /* <li>
                 <a class="text-white" href={secondNumberContact}>
                   (11) {secondPhoneContact}
                 </a>
-              </li> */}
+              </li> */
+              }
             </ul>
           </div>
         </div>
