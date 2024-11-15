@@ -41,14 +41,18 @@ export default defineApp(async (_req, ctx) => {
       <script src="//code.jivosite.com/widget/SrSwM7PiQm" async></script>
 
       {/* Google tag (gtag.js) */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-X8V5D1GXWW">
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-X8V5D1GXWW"
+      >
       </script>
       <script
-        dangerouslySetInnerHTML={{__html: ` 
+        dangerouslySetInnerHTML={{
+          __html: ` 
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-X8V5D1GXWW');`
+          gtag('config', 'G-X8V5D1GXWW');`,
         }}
       />
 

@@ -1,1 +1,390 @@
-{"name":"Home - Start","path":"/","sections":{"variants":[{"rule":{"__resolveType":"website/matchers/always.ts"},"value":[{"__resolveType":"Analytics"},{"type":"website","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/dac57515-6661-45d2-a281-384b759ae26a","title":"Cedrom: Cobrança de Condomínio sem Inadimplência | Tranquilidade para o Síndico","favicon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/dac57515-6661-45d2-a281-384b759ae26a","description":"A Cedrom assume a cobrança da taxa condominial e garante a receita do seu condomínio. Diga adeus à inadimplência e tenha mais tempo para cuidar do que realmente importa!","__resolveType":"website/sections/Seo/Seo.tsx"},{"font":{"fonts":[{"family":"Roboto","variations":[{"weight":"400"},{"weight":"600"},{"weight":"900"}]}],"__resolveType":"website/loaders/fonts/googleFonts.ts"},"fonts":[{"fontFamily":"Poppins"}],"mainColors":{"neutral":"#f9f9f9","primary":"#ffffff","warning":"#e08e00","base-100":"#ffffff","tertiary":"#02F67C","secondary":"#113032"},"buttonStyle":{"--border-btn":"1px","--rounded-btn":"0.2rem","--animation-btn":"0.25s","--btn-text-case":"normal-case","--btn-focus-scale":"0.95"},"colorScheme":"dark","otherStyles":{"--tab-border":"1px","--tab-radius":"0.5rem","--rounded-box":"1rem","--rounded-badge":"1.9rem","--animation-input":"0.2s"},"__resolveType":"site/sections/Theme/Theme.tsx"},{"logo":{"alt":"deco.cx","src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/dac57515-6661-45d2-a281-384b759ae26a","width":96,"height":40},"alerts":[],"buttons":{"hideCartButton":true,"hideSearchButton":true,"hideAccountButton":true,"hideWishlistButton":true},"navItems":[{"url":"#como-funciona","name":"Como funciona","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"#vantagens","name":"Vantagens","@type":"SiteNavigationElement","image":[],"children":[]},{"url":"#contato","name":"Contato","@type":"SiteNavigationElement","image":[],"children":[]}],"logoPosition":"left","__resolveType":"site/sections/Header/Header.tsx"},{"cta":[{"href":"https://api.whatsapp.com/send?phone=551142402022","text":"Entrar em contato","variant":"Normal"}],"image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/e810c035-f381-4f90-9423-001a7b48da6b","title":"<h1><strong><span style=\"color: rgb(236, 240, 241); font-weight: 900;\" data-mce-style=\"color: rgb(236, 240, 241); font-weight: 900;\">Soluções especializadas para condomínios residenciais e comerciais</span></strong></h1>","placement":"left","description":"Oferecemos consultoria especializada em gestão e administração de condomínios, garantindo eficiência e tranquilidade para síndicos e moradores.","__resolveType":"site/sections/Content/Hero.tsx"},{"text":"<h2 class=\"center\" style=\"color: rgb(1, 46, 102); font-size: 24pt; font-weight: bolder; text-align: center;\" data-mce-style=\"color: rgb(1, 46, 102); font-size: 24pt; font-weight: bolder; text-align: center;\">O que é uma garantidora de condomínio?</h2><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><br><br></p><p class=\"center\" style=\"font-size: 14pt; text-align: center;\" data-mce-style=\"font-size: 14pt; text-align: center;\">A <strong class=\"bold\">Cedrom</strong> é uma empresa que assume a cobrança da taxa condominial e repassa ao condomínio o valor das taxas pagas e não pagas pelos condôminos. <br>A cobrança dos atrasados é feita diretamente pela Cedrom, eliminando os custos e os riscos jurídicos para a condomínio. Com a receita garantida, o Síndico tem a certeza do valor que irá entrar na conta do condomínio, sem risco de falta de caixa devido a inadimplência.</p>","__resolveType":"site/sections/Apresentacao/Apresentacao.tsx"},{"content":[{"text":"Simulação do financiamento","number":1},{"text":"Envio de documentação preliminar","number":2},{"text":"Análise de crédito","number":3},{"text":"Aprovação do empréstimo em assembleia","number":4},{"text":"Liberação do dinheiro para o condomínio","number":5}],"__resolveType":"site/sections/ComoFunciona/ComoFunciona.tsx"},{"carousel":{"items":[{"image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/f1795775-e892-4731-b000-e627a90bbb5b","label":"Cadastro","style":{"button":{"color":"Default","outline":false},"textPosition":"Bottom","textAlignment":"Center"},"description":"Cadastro  das unidades  dos condomínho "},{"image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/863784a9-4aa9-40b1-bdea-be00ad37327f","label":"Emissão dos Boletos","style":{"button":{"color":"Default"},"textPosition":"Bottom","textAlignment":"Center"},"description":"Emissão dos boletos e enviados condôminos por e-mail"},{"image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/27cd37c0-09e8-4244-a84d-32aee93442e8","label":"Depósito","style":{"button":{"color":"Default"},"textPosition":"Bottom","textAlignment":"Center"},"description":"Depósito mensal na conta do condomínio"},{"image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/6bc56a90-ef68-4d83-a12f-9fa29cf50b49","label":"Cobrança Profissonal","style":{"button":{"color":"Default"},"textPosition":"Bottom","textAlignment":"Center"},"description":"Cobrança profissional dos condôminos inadimplentes"}],"slider":{"layout":{"hide":{"indicators":false},"itemWidth":380}},"placeholderItems":3},"__resolveType":"site/sections/Cards/ImageCardsCarousel.tsx"},{"itens":[{"image":{"alt":"Nova","src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/f898ad70-f460-455f-9e23-4f89c9b37459","label":"Nova"},"titleText":"Solução para Estabilidade Financeira","contentText":"Você já imaginou proporcionar estabilidade financeira ao seu condomínio, garantindo uma gestão eficiente para o síndico? Apresentamos a Cedrom, a solução que transforma a administração condominial, eliminando preocupações com inadimplência."},{"image":{"alt":"Novo","src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/f898ad70-f460-455f-9e23-4f89c9b37459","label":"Novo"},"titleText":"Elimine Preocupações com Inadimplência","contentText":"Uma garantidora de condomínio como a Cedrom assume a cobrança da taxa condominial, garantindo a receita mensal e eliminando os riscos jurídicos. O síndico passa a contar com uma gestão financeira estável, sem surpresas desagradáveis."},{"image":{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/f898ad70-f460-455f-9e23-4f89c9b37459"},"titleText":"Gestão Condominial Simplificada","contentText":"Ao contratar a Cedrom, a cobrança dos inadimplentes se torna responsabilidade da empresa, sem custos adicionais para o condomínio. O síndico ganha previsibilidade de caixa, possibilitando planejar obras e melhorias, sem impacto na taxa condominial."},{"image":{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/f898ad70-f460-455f-9e23-4f89c9b37459"},"titleText":"Receitas Mensais Garantidas","contentText":"Deseja garantir receitas mensais estáveis, eliminar gastos legais com cobranças e valorizar seu condomínio? Contratar a Cedrom é simples: uma análise de cadastro, proposta enviada, aprovação em assembleia e assinatura do contrato. Solicite agora uma simulação gratuita e transforme a gestão do seu condomínio com a Cedrom."}],"__resolveType":"site/sections/OQueFazemos/OQueFazemos.tsx"},{"__resolveType":"site/sections/PorqueContratar/PorqueContratar.tsx"},{"title":"Perguntas Frequentes","layout":{"variation":"Side to side","headerAlignment":"left"},"questions":[{"answer":"<p>Depois que a Cedrom é contratada pelo condomínio, a Cedrom passa a emitir e a enviar para os condôminos os boletos da taxa condominial e passa a ser a responsável pela cobrança dos inadimplentes. A Cedrom recebe os pagamentos dos condôminos e repassa o valor para o condomínio das taxas pagas e das taxas não pagas. Ou seja, se algum morador não pagar a taxa condominial, o caixa do condomínio não será afetado já que receberá como se 100% dos condôminos tivessem pago as taxas condominiais.</p>","question":"Como funciona na prática o serviço de uma garantidora?"},{"answer":"<p>A Cedrom assume todos os custos de cobrança dos inadimplentes, não há repasse ou cobrança ou custos para o Condomínio.</p>","question":"Existem custos para fazer a cobrança dos inadimpletes?"},{"answer":"<p>A Cedrom assume a cobrança das taxas condominiais e repassa para o condomínio o valor total, mesmo dos condôminos inadimplentes, descontando uma taxa de deságio que varia de acordo com o perfil do condomínio (análise considera o número de unidades e histórico de inadimplência)</p>","question":"Quanto custa o serviço da Cedrom de receita garantida?"}],"description":"Encontre respostas para perguntas frequentes sobre a Cedrom","__resolveType":"site/sections/Content/Faq.tsx"},{"logo":{"alt":"Cedrom","src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/c2017726-c152-4667-ac25-926a7ae915ef"},"logoLinkedIn":{"alt":"Logo LinkedIn Cedrom","src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/b737faf4-d8fc-483f-903b-2c42aa94130c","text":"cedrom","url_link":"https://www.linkedin.com/company/cedrom-garantidora/"},"__resolveType":"site/sections/Contato/Contato.tsx","logoInstagram":{"alt":"Logo Instagram Cedrom","src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/9d19938f-e400-42c1-bdf2-8e379492ed52","text":"Cedrom","url_link":"https://www.instagram.com/cedrom_garantidora"},"firstPhoneContact":"4240-2022","secondPhoneContact":"4240-2022"},{"logo":{"0":"h","1":"t","2":"t","3":"p","4":"s","5":":","6":"/","7":"/","8":"o","9":"z","10":"k","11":"s","12":"g","13":"d","14":"m","15":"y","16":"r","17":"q","18":"c","19":"x","20":"c","21":"w","22":"h","23":"n","24":"b","25":"e","26":"p","27":"g","28":".","29":"s","30":"u","31":"p","32":"a","33":"b","34":"a","35":"s","36":"e","37":".","38":"c","39":"o","40":"/","41":"s","42":"t","43":"o","44":"r","45":"a","46":"g","47":"e","48":"/","49":"v","50":"1","51":"/","52":"o","53":"b","54":"j","55":"e","56":"c","57":"t","58":"/","59":"p","60":"u","61":"b","62":"l","63":"i","64":"c","65":"/","66":"a","67":"s","68":"s","69":"e","70":"t","71":"s","72":"/","73":"4","74":"4","75":"7","76":"9","77":"/","78":"c","79":"2","80":"0","81":"1","82":"7","83":"7","84":"2","85":"6","86":"-","87":"c","88":"1","89":"5","90":"2","91":"-","92":"4","93":"6","94":"6","95":"7","96":"-","97":"a","98":"c","99":"2","100":"5","101":"-","102":"9","103":"2","104":"6","105":"a","106":"7","107":"a","108":"e","109":"9","110":"1","111":"5","112":"e","113":"f","alt":"Cedrom","src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/c2017726-c152-4667-ac25-926a7ae915ef"},"text":"TODOS OS DIREITOS RESERVADOS CEDROM SECURITIZADORA","address":"Rua Araguari, nº 835, conjunto 301, Vila Uberabinha, São Paulo, SP","__resolveType":"site/sections/FooterNew/FooterNew.tsx"}]}],"__resolveType":"website/flags/multivariate.ts"},"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Home - Start",
+  "path": "/",
+  "sections": {
+    "variants": [
+      {
+        "rule": { "__resolveType": "website/matchers/always.ts" },
+        "value": [
+          { "__resolveType": "Analytics" },
+          {
+            "type": "website",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/dac57515-6661-45d2-a281-384b759ae26a",
+            "title": "Cedrom: Cobrança de Condomínio sem Inadimplência | Tranquilidade para o Síndico",
+            "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/dac57515-6661-45d2-a281-384b759ae26a",
+            "description": "A Cedrom assume a cobrança da taxa condominial e garante a receita do seu condomínio. Diga adeus à inadimplência e tenha mais tempo para cuidar do que realmente importa!",
+            "__resolveType": "website/sections/Seo/Seo.tsx"
+          },
+          {
+            "font": {
+              "fonts": [
+                {
+                  "family": "Roboto",
+                  "variations": [
+                    { "weight": "400" },
+                    { "weight": "600" },
+                    { "weight": "900" }
+                  ]
+                }
+              ],
+              "__resolveType": "website/loaders/fonts/googleFonts.ts"
+            },
+            "fonts": [{ "fontFamily": "Poppins" }],
+            "mainColors": {
+              "neutral": "#f9f9f9",
+              "primary": "#ffffff",
+              "warning": "#e08e00",
+              "base-100": "#ffffff",
+              "tertiary": "#02F67C",
+              "secondary": "#113032"
+            },
+            "buttonStyle": {
+              "--border-btn": "1px",
+              "--rounded-btn": "0.2rem",
+              "--animation-btn": "0.25s",
+              "--btn-text-case": "normal-case",
+              "--btn-focus-scale": "0.95"
+            },
+            "colorScheme": "dark",
+            "otherStyles": {
+              "--tab-border": "1px",
+              "--tab-radius": "0.5rem",
+              "--rounded-box": "1rem",
+              "--rounded-badge": "1.9rem",
+              "--animation-input": "0.2s"
+            },
+            "__resolveType": "site/sections/Theme/Theme.tsx"
+          },
+          {
+            "logo": {
+              "alt": "deco.cx",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/dac57515-6661-45d2-a281-384b759ae26a",
+              "width": 96,
+              "height": 40
+            },
+            "alerts": [],
+            "buttons": {
+              "hideCartButton": true,
+              "hideSearchButton": true,
+              "hideAccountButton": true,
+              "hideWishlistButton": true
+            },
+            "navItems": [
+              {
+                "url": "#como-funciona",
+                "name": "Como funciona",
+                "@type": "SiteNavigationElement",
+                "image": [],
+                "children": []
+              },
+              {
+                "url": "#vantagens",
+                "name": "Vantagens",
+                "@type": "SiteNavigationElement",
+                "image": [],
+                "children": []
+              },
+              {
+                "url": "#contato",
+                "name": "Contato",
+                "@type": "SiteNavigationElement",
+                "image": [],
+                "children": []
+              }
+            ],
+            "logoPosition": "left",
+            "__resolveType": "site/sections/Header/Header.tsx"
+          },
+          {
+            "cta": [
+              {
+                "href": "https://api.whatsapp.com/send?phone=551142402022",
+                "text": "Entrar em contato",
+                "variant": "Normal"
+              }
+            ],
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/e810c035-f381-4f90-9423-001a7b48da6b",
+            "title": "<h1><strong><span style=\"color: rgb(236, 240, 241); font-weight: 900;\" data-mce-style=\"color: rgb(236, 240, 241); font-weight: 900;\">Soluções especializadas para condomínios residenciais e comerciais</span></strong></h1>",
+            "placement": "left",
+            "description": "Oferecemos consultoria especializada em gestão e administração de condomínios, garantindo eficiência e tranquilidade para síndicos e moradores.",
+            "__resolveType": "site/sections/Content/Hero.tsx"
+          },
+          {
+            "text": "<h2 class=\"center\" style=\"color: rgb(1, 46, 102); font-size: 24pt; font-weight: bolder; text-align: center;\" data-mce-style=\"color: rgb(1, 46, 102); font-size: 24pt; font-weight: bolder; text-align: center;\">O que é uma garantidora de condomínio?</h2><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><br><br></p><p class=\"center\" style=\"font-size: 14pt; text-align: center;\" data-mce-style=\"font-size: 14pt; text-align: center;\">A <strong class=\"bold\">Cedrom</strong> é uma empresa que assume a cobrança da taxa condominial e repassa ao condomínio o valor das taxas pagas e não pagas pelos condôminos. <br>A cobrança dos atrasados é feita diretamente pela Cedrom, eliminando os custos e os riscos jurídicos para a condomínio. Com a receita garantida, o Síndico tem a certeza do valor que irá entrar na conta do condomínio, sem risco de falta de caixa devido a inadimplência.</p>",
+            "__resolveType": "site/sections/Apresentacao/Apresentacao.tsx"
+          },
+          {
+            "content": [
+              { "text": "Simulação do financiamento", "number": 1 },
+              { "text": "Envio de documentação preliminar", "number": 2 },
+              { "text": "Análise de crédito", "number": 3 },
+              { "text": "Aprovação do empréstimo em assembleia", "number": 4 },
+              { "text": "Liberação do dinheiro para o condomínio", "number": 5 }
+            ],
+            "__resolveType": "site/sections/ComoFunciona/ComoFunciona.tsx"
+          },
+          {
+            "carousel": {
+              "items": [
+                {
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/f1795775-e892-4731-b000-e627a90bbb5b",
+                  "label": "Cadastro",
+                  "style": {
+                    "button": { "color": "Default", "outline": false },
+                    "textPosition": "Bottom",
+                    "textAlignment": "Center"
+                  },
+                  "description": "Cadastro  das unidades  dos condomínho "
+                },
+                {
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/863784a9-4aa9-40b1-bdea-be00ad37327f",
+                  "label": "Emissão dos Boletos",
+                  "style": {
+                    "button": { "color": "Default" },
+                    "textPosition": "Bottom",
+                    "textAlignment": "Center"
+                  },
+                  "description": "Emissão dos boletos e enviados condôminos por e-mail"
+                },
+                {
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/27cd37c0-09e8-4244-a84d-32aee93442e8",
+                  "label": "Depósito",
+                  "style": {
+                    "button": { "color": "Default" },
+                    "textPosition": "Bottom",
+                    "textAlignment": "Center"
+                  },
+                  "description": "Depósito mensal na conta do condomínio"
+                },
+                {
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/6bc56a90-ef68-4d83-a12f-9fa29cf50b49",
+                  "label": "Cobrança Profissonal",
+                  "style": {
+                    "button": { "color": "Default" },
+                    "textPosition": "Bottom",
+                    "textAlignment": "Center"
+                  },
+                  "description": "Cobrança profissional dos condôminos inadimplentes"
+                }
+              ],
+              "slider": {
+                "layout": { "hide": { "indicators": false }, "itemWidth": 380 }
+              },
+              "placeholderItems": 3
+            },
+            "__resolveType": "site/sections/Cards/ImageCardsCarousel.tsx"
+          },
+          {
+            "itens": [
+              {
+                "image": {
+                  "alt": "Nova",
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/f898ad70-f460-455f-9e23-4f89c9b37459",
+                  "label": "Nova"
+                },
+                "titleText": "Solução para Estabilidade Financeira",
+                "contentText": "Você já imaginou proporcionar estabilidade financeira ao seu condomínio, garantindo uma gestão eficiente para o síndico? Apresentamos a Cedrom, a solução que transforma a administração condominial, eliminando preocupações com inadimplência."
+              },
+              {
+                "image": {
+                  "alt": "Novo",
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/f898ad70-f460-455f-9e23-4f89c9b37459",
+                  "label": "Novo"
+                },
+                "titleText": "Elimine Preocupações com Inadimplência",
+                "contentText": "Uma garantidora de condomínio como a Cedrom assume a cobrança da taxa condominial, garantindo a receita mensal e eliminando os riscos jurídicos. O síndico passa a contar com uma gestão financeira estável, sem surpresas desagradáveis."
+              },
+              {
+                "image": {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/f898ad70-f460-455f-9e23-4f89c9b37459"
+                },
+                "titleText": "Gestão Condominial Simplificada",
+                "contentText": "Ao contratar a Cedrom, a cobrança dos inadimplentes se torna responsabilidade da empresa, sem custos adicionais para o condomínio. O síndico ganha previsibilidade de caixa, possibilitando planejar obras e melhorias, sem impacto na taxa condominial."
+              },
+              {
+                "image": {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/f898ad70-f460-455f-9e23-4f89c9b37459"
+                },
+                "titleText": "Receitas Mensais Garantidas",
+                "contentText": "Deseja garantir receitas mensais estáveis, eliminar gastos legais com cobranças e valorizar seu condomínio? Contratar a Cedrom é simples: uma análise de cadastro, proposta enviada, aprovação em assembleia e assinatura do contrato. Solicite agora uma simulação gratuita e transforme a gestão do seu condomínio com a Cedrom."
+              }
+            ],
+            "__resolveType": "site/sections/OQueFazemos/OQueFazemos.tsx"
+          },
+          {
+            "__resolveType": "site/sections/PorqueContratar/PorqueContratar.tsx"
+          },
+          {
+            "title": "Perguntas Frequentes",
+            "layout": {
+              "variation": "Side to side",
+              "headerAlignment": "left"
+            },
+            "questions": [
+              {
+                "answer": "<p>Depois que a Cedrom é contratada pelo condomínio, a Cedrom passa a emitir e a enviar para os condôminos os boletos da taxa condominial e passa a ser a responsável pela cobrança dos inadimplentes. A Cedrom recebe os pagamentos dos condôminos e repassa o valor para o condomínio das taxas pagas e das taxas não pagas. Ou seja, se algum morador não pagar a taxa condominial, o caixa do condomínio não será afetado já que receberá como se 100% dos condôminos tivessem pago as taxas condominiais.</p>",
+                "question": "Como funciona na prática o serviço de uma garantidora?"
+              },
+              {
+                "answer": "<p>A Cedrom assume todos os custos de cobrança dos inadimplentes, não há repasse ou cobrança ou custos para o Condomínio.</p>",
+                "question": "Existem custos para fazer a cobrança dos inadimpletes?"
+              },
+              {
+                "answer": "<p>A Cedrom assume a cobrança das taxas condominiais e repassa para o condomínio o valor total, mesmo dos condôminos inadimplentes, descontando uma taxa de deságio que varia de acordo com o perfil do condomínio (análise considera o número de unidades e histórico de inadimplência)</p>",
+                "question": "Quanto custa o serviço da Cedrom de receita garantida?"
+              }
+            ],
+            "description": "Encontre respostas para perguntas frequentes sobre a Cedrom",
+            "__resolveType": "site/sections/Content/Faq.tsx"
+          },
+          {
+            "logo": {
+              "alt": "Cedrom",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/c2017726-c152-4667-ac25-926a7ae915ef"
+            },
+            "logoLinkedIn": {
+              "alt": "Logo LinkedIn Cedrom",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/b737faf4-d8fc-483f-903b-2c42aa94130c",
+              "text": "cedrom",
+              "url_link": "https://www.linkedin.com/company/cedrom-garantidora/"
+            },
+            "__resolveType": "site/sections/Contato/Contato.tsx",
+            "logoInstagram": {
+              "alt": "Logo Instagram Cedrom",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/9d19938f-e400-42c1-bdf2-8e379492ed52",
+              "text": "Cedrom",
+              "url_link": "https://www.instagram.com/cedrom_garantidora"
+            },
+            "firstPhoneContact": "4240-2022",
+            "secondPhoneContact": "4240-2022"
+          },
+          {
+            "logo": {
+              "0": "h",
+              "1": "t",
+              "2": "t",
+              "3": "p",
+              "4": "s",
+              "5": ":",
+              "6": "/",
+              "7": "/",
+              "8": "o",
+              "9": "z",
+              "10": "k",
+              "11": "s",
+              "12": "g",
+              "13": "d",
+              "14": "m",
+              "15": "y",
+              "16": "r",
+              "17": "q",
+              "18": "c",
+              "19": "x",
+              "20": "c",
+              "21": "w",
+              "22": "h",
+              "23": "n",
+              "24": "b",
+              "25": "e",
+              "26": "p",
+              "27": "g",
+              "28": ".",
+              "29": "s",
+              "30": "u",
+              "31": "p",
+              "32": "a",
+              "33": "b",
+              "34": "a",
+              "35": "s",
+              "36": "e",
+              "37": ".",
+              "38": "c",
+              "39": "o",
+              "40": "/",
+              "41": "s",
+              "42": "t",
+              "43": "o",
+              "44": "r",
+              "45": "a",
+              "46": "g",
+              "47": "e",
+              "48": "/",
+              "49": "v",
+              "50": "1",
+              "51": "/",
+              "52": "o",
+              "53": "b",
+              "54": "j",
+              "55": "e",
+              "56": "c",
+              "57": "t",
+              "58": "/",
+              "59": "p",
+              "60": "u",
+              "61": "b",
+              "62": "l",
+              "63": "i",
+              "64": "c",
+              "65": "/",
+              "66": "a",
+              "67": "s",
+              "68": "s",
+              "69": "e",
+              "70": "t",
+              "71": "s",
+              "72": "/",
+              "73": "4",
+              "74": "4",
+              "75": "7",
+              "76": "9",
+              "77": "/",
+              "78": "c",
+              "79": "2",
+              "80": "0",
+              "81": "1",
+              "82": "7",
+              "83": "7",
+              "84": "2",
+              "85": "6",
+              "86": "-",
+              "87": "c",
+              "88": "1",
+              "89": "5",
+              "90": "2",
+              "91": "-",
+              "92": "4",
+              "93": "6",
+              "94": "6",
+              "95": "7",
+              "96": "-",
+              "97": "a",
+              "98": "c",
+              "99": "2",
+              "100": "5",
+              "101": "-",
+              "102": "9",
+              "103": "2",
+              "104": "6",
+              "105": "a",
+              "106": "7",
+              "107": "a",
+              "108": "e",
+              "109": "9",
+              "110": "1",
+              "111": "5",
+              "112": "e",
+              "113": "f",
+              "alt": "Cedrom",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4479/c2017726-c152-4667-ac25-926a7ae915ef"
+            },
+            "text": "TODOS OS DIREITOS RESERVADOS CEDROM SECURITIZADORA",
+            "address": "Rua Araguari, nº 835, conjunto 301, Vila Uberabinha, São Paulo, SP",
+            "__resolveType": "site/sections/FooterNew/FooterNew.tsx"
+          }
+        ]
+      }
+    ],
+    "__resolveType": "website/flags/multivariate.ts"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
