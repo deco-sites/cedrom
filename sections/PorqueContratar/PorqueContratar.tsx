@@ -54,7 +54,9 @@ export default function PorqueContratar({
         {ItensReturn}
       </div>
       <div class="my-5 w-full">
-        <h2 class="my-2 font-bold text-3xl block text-center py-2 text-[#012E66]">Solicitar 2ª via de boleto</h2>
+        <h2 class="my-2 font-bold text-3xl block text-center py-2 text-[#012E66]">
+          Solicitar 2ª via de boleto
+        </h2>
         <div data-tf-live="01JCPXD2VNEJQWEYV8BB37C7VJ" class="w-full"></div>
         <script src="//embed.typeform.com/next/embed.js"></script>
       </div>
