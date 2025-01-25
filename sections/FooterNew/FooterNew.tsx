@@ -12,14 +12,14 @@ export interface Props {
   address?: string;
 }
 
-const DEFAULT_PROPS = {
+const DEFAULT_PROPS2 = {
   logo: {
     src:
       "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/80a115a2-3623-4e9b-aec7-42601c2ff416",
     alt: "Cedrom",
   },
-  text: "TODOS OS DIREITOS RESERVADOS CEDROM SECURITIZADORA",
-  address: "Rua Araguari, nº 835, conjunto 301, Vila Uberabinha, São Paulo, SP",
+  text: "TODOS OS DIREITOS RESERVADOS CEDROM GARANTIDORA - CNPJ: 19.409.591/0001-83",
+  address: "Rua Araguari, nº 835, conjunto 301 - Sala 1, Vila Uberabinha, São Paulo, SP",
 };
 
 export default function FooterNew(props: Props) {
@@ -27,7 +27,7 @@ export default function FooterNew(props: Props) {
     logo,
     text,
     address,
-  } = { ...DEFAULT_PROPS, ...props };
+  } = { ...DEFAULT_PROPS2, ...props };
 
   return (
     <div>
@@ -42,8 +42,8 @@ export default function FooterNew(props: Props) {
         />
       </div>
       <div class="bg-[#00A6CA] py-5 text-center">
-        <p class="text-white text-[11px]">{text}</p>
-        <address class="text-white text-[8px] not-italic">{address}</address>
+        <p class="text-white text-[11px]">TODOS OS DIREITOS RESERVADOS CEDROM GARANTIDORA - CNPJ: 19.409.591/0001-83</p>
+        <address class="text-white text-[8px] not-italic">Rua Araguari, nº 835, conjunto 301 - Sala 1, Vila Uberabinha, São Paulo, SP</address>
       </div>
     </div>
   );

@@ -81,7 +81,13 @@ function Header({
   return (
     <>
       <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WS9VX5XP"height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-WS9VX5XP"
+          height="0"
+          width="0"
+          style="display:none;visibility:hidden"
+        >
+        </iframe>
       </noscript>
       <header style={{ height: headerHeight }} class="bg-[#ffffff]">
         <Drawers
