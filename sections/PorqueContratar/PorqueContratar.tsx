@@ -53,14 +53,13 @@ export default function PorqueContratar({
       <div class="grid grid-cols-[repeat(3,_1fr)] grid-rows-[repeat(2,_1fr)] gap-x-[10px] gap-y-[10px] max-[1020px]:grid-cols-[1fr] max-[1020px]:flex max-[1020px]:flex-col max-[1020px]:items-center">
         {ItensReturn}
       </div>
-      <div class="my-5 w-full">
+      {/* <div class="my-5 w-full">
         <h2 class="my-2 font-bold text-3xl block text-center py-2 text-[#012E66]">
           Solicitar 2ª via de boleto
         </h2>
-        {
+        
           /* <div data-tf-live="01JCPXD2VNEJQWEYV8BB37C7VJ" class="w-full"></div>
-        <script src="//embed.typeform.com/next/embed.js"></script> */
-        }
+        <script src="//embed.typeform.com/next/embed.js"></script> 
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLSe0MhJ3cBLbfdS8gYSOIjo_1j3OsX1PfdTlz63ig_w4Zmm6dQ/viewform?embedded=true"
           class="w-full"
@@ -71,7 +70,7 @@ export default function PorqueContratar({
         >
           Carregando…
         </iframe>
-      </div>
+      </div> */}
     </div>
   );
 }

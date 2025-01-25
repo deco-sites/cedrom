@@ -48,7 +48,7 @@ const DEFAULT_PROPS = {
     text: "cedrom",
     url_link: "https://www.instagram.com/cedromoveissc401/",
   },
-  firstPhoneContact: "4240-2022",
+  firstPhoneContact: "5239-7711",
 };
 
 export default function Contato(props: Props) {
@@ -132,8 +132,8 @@ export default function Contato(props: Props) {
             <h4 class="text-[20px] text-white font-bold mr-6 block">Contato</h4>
             <ul class="block leading-6">
               <li class="block mb-1">
-                <a class="text-white" href={firstNumberContact}>
-                  (11) {firstPhoneContact}
+                <a class="text-white" href="https://wa.me/551152397711" target="_blank">
+                  (11) 5239-7711
                 </a>
               </li>
               {
